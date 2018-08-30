@@ -1,7 +1,0 @@
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\bin\Debug\HelloWorldCSharp.exe.config
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\bin\Debug\HelloWorldCSharp.exe
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\bin\Debug\HelloWorldCSharp.pdb
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\obj\Debug\HelloWorldCSharp.csprojAssemblyReference.cache
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\obj\Debug\HelloWorldCSharp.csproj.CoreCompileInputs.cache
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\obj\Debug\HelloWorldCSharp.exe
-C:\Users\Javier\Documents\GitHub\apps\helloworld\HelloWorldCSharp\HelloWorldCSharp\obj\Debug\HelloWorldCSharp.pdb
