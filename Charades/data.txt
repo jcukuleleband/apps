@@ -1,0 +1,344 @@
+Airplane
+Ears
+Piano
+Angry
+Elephant
+Pinch
+Baby
+Fish
+Reach
+Ball
+Flick
+Remote
+Baseball
+Football
+Roll
+Basketball
+Fork
+Sad
+Bounce
+Giggle
+Scissors
+Cat
+Golf
+Skip
+Chicken
+Guitar
+Sneeze
+Chimpanzee
+Hammer
+Spin
+Clap
+Happy
+Spoon
+Cough
+Horns
+Stomp
+Cry
+Joke
+Stop
+Dog
+Mime
+Tail
+Drink
+Penguin
+Toothbrush
+Archer
+Ghost
+Rock star
+Balance beam
+Haircut
+Shoelaces
+Ballet
+Halo
+Sick
+Balloon
+Hiccup
+Singer
+Banana peel
+Hot dog
+Skateboard
+Book
+Hungry
+Slippery
+Braces
+Hurt
+Soccer
+Button
+Ice skating
+Strong
+Car
+Karate
+Stubbed toe
+Cheers
+Ladder
+Sunshine
+Clown
+Light bulb
+Surprise
+Dinosaur
+Limbo
+Swing
+Disco
+Macarena
+Sword
+Dizzy
+Paint
+Tap dance
+Fart
+Pirate
+Wheelbarrow
+Fishing
+Read
+Wizard of Oz
+Gallop
+River dance
+Birthday
+Hedgehog
+Pizza
+Blanket
+Helicopter
+President
+Bright
+Hurricane
+Rainbow
+Bump
+Kite
+Rollercoaster
+Christmas
+Light
+Shadow
+Coffee
+Magic
+Shopping
+Cradle
+Makeup
+Shuffle
+Deer
+Marriage
+Slice
+Drool
+Mash
+Slip n’ slide
+Electric Slide
+Measure
+Smear
+Excitement
+Mirror
+Spider
+Fight Club
+Monster
+The Lion King
+Firefighter
+Motorcycle
+Trampoline
+Flashlight
+Nightmare
+Waterfall
+Garden
+Nosey
+Window
+Giraffe
+Overwhelmed
+Yo-yo
+Heavy
+Pancakes
+Phone
+Wiggle
+Duck
+Photographer
+Cycling
+Watching TV
+Swimming
+Running
+Flying in a plane
+Sleeping
+Flipping pancakes
+Listening to music
+Driving a car
+Writing a letter
+Skiing
+Giving a haircut
+Drinking
+Typing
+Eating
+Cycling a tricycle
+Watching a Romantic Comedy
+Doing the Backstroke
+Running on a treadmill
+Flying in a plane through turbulence
+Sleeping in a hammock
+Cooking meat
+Listening to classical music
+Driving a go kart
+Writing a letter of complaint
+Tobogganing
+Flying a drone
+Winning an award
+Gardening
+Sailing
+Up
+Fight Club
+Jaws
+Ran
+Back to the Future
+Home
+2 Guns
+The Lord of the Rings
+Jurassic Park
+Man of Steel
+The Hunchback of Notre Dame
+Star Wars
+Cars
+The Jungle Book
+Seven
+Inception
+Saving Private Ryan
+The Terminator
+On the Waterfront
+Once Upon a Time in America
+Vertigo
+Alice in Wonderland
+The Hobbit
+Ratatouille
+American Beauty
+The Dark Knight Rises
+Brave
+The Shining
+Forrest Gump
+Honey, I Shrunk the Kids
+Catch-22
+Harry Potter
+The Red and the Black
+The Hunger Games
+Nineteen Eighty-Four
+Frankenstein
+The Lord of the Rings
+Little Women
+The Scarlett Letter
+The Rainbow
+Dracula
+The Woman in White
+Money
+The Big Sleep
+Men Without Women
+Pride and Prejudice
+The Adventures of Huckleberry Finn
+The BFG
+Wuthering Heights
+Ulysses
+The DaVinci Code
+The Divine Comedy
+Brave New World
+The Great Gatsby
+Catcher in the Rye
+Atonement
+Charlotte’s Web
+American Pastoral
+LA Confidential
+Tinker Tailor Soldier Spy
+Muggle
+Brushing teeth
+Building a sandcastle
+Dancing
+Driving a car
+Opening a gift
+Playing baseball
+Shoveling snow
+Swimming
+Skateboarding
+Tying a shoe
+Walking a dog
+Yoga
+Alice's Adventures in Wonderland
+Angelina Ballerina
+Captain Underpants
+Diary of a Wimpy Kid
+Elephant and Piggie
+Harry Potter and the Sorcerer's Stone
+Holes
+Princess Cupcake Jones and the Missing Tutu
+The Cat in the Hat
+The Giving Tree
+The Gruffalo
+The Lion, the Witch and the Wardrobe
+The Very Hungry Caterpillar
+Where the Wild Things Are
+Beauty and the Beast
+Chicken Little
+Cinderella
+Goldilocks and The Three Bears
+Little Red Riding Hood
+Rapunzel
+Snow White and the Seven Dwarves
+Sleeping Beauty
+The Boy Who Cried Wolf
+The Emperor's New Clothes
+Abraham Lincoln
+Albert Einstein
+Amelia Earhart
+Barack Obama
+George Washington
+Isaac Newton
+Neil Armstrong
+Vincent van Gogh
+Buckingham Palace
+Eiffel Tower
+Grand Canyon
+Great Wall of China
+Mount Everest
+Mount Rushmore
+Niagra Falls
+Seattle Space Needle
+Smokey Mountains
+Statue of Liberty
+Banana
+Bubblegum
+French fries
+Ice cream cone
+Jello
+Pizza
+Popcorn
+Sandwich
+Spaghetti
+Taco
+Babe
+Bambi
+Boss Baby
+Cats and Dogs
+Finding Nemo
+Frozen
+Home
+Harry Potter and the Goblet of Fire
+Moana
+Pirates of the Caribbean
+Spiderman
+Superman
+The Karate Kid
+The Jungle Book
+The Lego Movie
+The Lion King
+The Little Mermaid
+Toy Story
+Archery
+Baseball
+Basketball
+Football
+Golf
+Skiing
+Soccer
+Tennis
+Serena Williams
+Michael Jordan
+Babe Ruth
+Usain Bolt
+American Idol
+Bob the Builder
+Curious George
+Dora the Explorer
+Go, Diego, Go
+Lab Rats
+Liv and Maddie
+Sid the Science Kid
+Spongebob Squarepants
+The Wiggles
