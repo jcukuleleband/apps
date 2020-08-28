@@ -5,6 +5,7 @@ from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.animation import Animation
 from kivy.properties import StringProperty, NumericProperty
+from kivy.graphics import Color, Rectangle
 
 class GameScreen(GridLayout):
 
@@ -15,30 +16,42 @@ class GameScreen(GridLayout):
         super(GameScreen, self).__init__(**kwargs)
         self.cols = 1
 
+        #Timer
+        self.cntDownClock = IncrediblyCrudeClock()
+        #self.cntDownClock.start()
+        self.cntDownClock.text = "Press Start to Begin Charading"
+        self.add_widget(self.cntDownClock)
+
+        #Charade Word
+        self.word = CharadeWord(text = "Baseball Player")
+        self.add_widget(self.word)
+
         #Reset button
         green = [0, 1, 0, 1]
-        self.reset_button =  Button(text ="Reset", background_color = green)
-        self.reset_button.bind(on_press = self.reset_button_callback)
-        self.add_widget(self.reset_button)
+        self.start_button =  Button(text ="Start", background_color = green)
+        self.start_button.bind(on_press = self.start_button_callback)
+        self.add_widget(self.start_button)
 
-        self.cntDownClock = IncrediblyCrudeClock()
-        self.cntDownClock.start()
-        self.add_widget(self.cntDownClock)
-
-
-    def reset_button_callback(self, event):
-        print("reset_button_callback")
-        self.remove_widget(self.cntDownClock)
-        self.cntDownClock = IncrediblyCrudeClock();
-        self.cntDownClock.start();
-        self.add_widget(self.cntDownClock)
+    def start_button_callback(self, event):
+            print("reset_button_callback")
+            self.remove_widget(self.cntDownClock)
+            print(self.start_button.text)
+            if self.start_button.text == "Start":
+                green = [0, 1, 0, 1]
+                self.cntDownClock = IncrediblyCrudeClock();
+                self.cntDownClock.start();
+                self.add_widget(self.cntDownClock,2)  # "2" form the bottom?
+                self.start_button.text="Stop"
+            else:
+                self.cntDownClock = IncrediblyCrudeClock()
+                self.cntDownClock.text = "Press Start to Begin Charading"
+                self.add_widget(self.cntDownClock, 2)
+                self.start_button.text="Start"
 
 class IncrediblyCrudeClock(Label):
-    a = NumericProperty(5)  # seconds
+    a = NumericProperty(45)
 
     def start(self):
-        print("ICC:start")
-        print(self)
         Animation.cancel_all(self)  # stop any current animations
         self.anim = Animation(a=0, duration=self.a)
         def finish_callback(animation, incr_crude_clock):
@@ -48,6 +61,21 @@ class IncrediblyCrudeClock(Label):
 
     def on_a(self, instance, value):
         self.text = str(round(value, 1))
+
+    def on_size(self, *args):
+        self.canvas.before.clear()
+        with self.canvas.before:
+            Color(1, 0, 0, 1)
+            Rectangle(pos=self.pos, size=self.size)
+
+
+class CharadeWord(Label):
+    def on_size(self, *args):
+        self.canvas.before.clear()
+        with self.canvas.before:
+            Color(0, 0, 1, 0.5)
+            Rectangle(pos=self.pos, size=self.size)
+
 
 
 class MyApp(App):
