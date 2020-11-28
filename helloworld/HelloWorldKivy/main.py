@@ -16,11 +16,19 @@ class GameScreen(GridLayout):
         super(GameScreen, self).__init__(**kwargs)
         self.cols = 1
 
+        #title
+        self.topTitle = TitleLabel()
+        self.add_widget(self.topTitle)
+
         #Timer
         self.cntDownClock = IncrediblyCrudeClock()
         #self.cntDownClock.start()
         self.cntDownClock.text = "Press Start to Begin Charading"
         self.add_widget(self.cntDownClock)
+
+        #barder
+        self.border = Border(size = (100,10))
+        self.add_widget(self.border)
 
         #Charade Word
         self.word = CharadeWord(text = "Baseball Player")
@@ -41,6 +49,7 @@ class GameScreen(GridLayout):
                 self.cntDownClock = IncrediblyCrudeClock();
                 self.cntDownClock.start();
                 self.add_widget(self.cntDownClock,2)  # "2" form the bottom?
+                
                 self.start_button.text="Stop"
             else:
                 self.cntDownClock = IncrediblyCrudeClock()
@@ -69,6 +78,7 @@ class IncrediblyCrudeClock(Label):
             Rectangle(pos=self.pos, size=self.size)
 
 
+
 class CharadeWord(Label):
     def on_size(self, *args):
         self.canvas.before.clear()
@@ -76,6 +86,21 @@ class CharadeWord(Label):
             Color(0, 0, 1, 0.5)
             Rectangle(pos=self.pos, size=self.size)
 
+class TitleLabel(Label):
+    def on_size(self, *args):
+        self.canvas.before.clear()
+        with self.canvas.before:
+            Color(1,1,1,1)
+            Rectangle(pos=self.pos, size=self.size)
+
+
+class Border(Label):
+
+    def on_size(self, *args):
+        self.canvas.before.clear()
+        with self.canvas.before:
+            Color(1,1,0,1)
+            Rectangle(pos=self.pos, size=self.size)
 
 
 class MyApp(App):
