@@ -1,13 +1,16 @@
 import kivy
-kivy.require('1.9.0')
+kivy.require('1.10.0')
 
 from kivy.app import App 
-from kivy.uix.label import Label
+from kivy.uix.gridlayout import GridLayout
+
+class MyGridLayout(GridLayout):
+    pass
 
 
 class LayoutsApp(App):
     def build(self):
-        return Label()
+        return MyGridLayout()
 
 if __name__=="__main__":
     LayoutsApp().run()
